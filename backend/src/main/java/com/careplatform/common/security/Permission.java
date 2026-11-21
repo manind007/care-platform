@@ -1,0 +1,21 @@
+package com.careplatform.common.security;
+
+public enum Permission {
+    CLIENT_READ,
+    CLIENT_WRITE,
+    CAREPLAN_READ,
+    CAREPLAN_WRITE,
+    CAREPLAN_APPROVE,
+    ASSESSMENT_WRITE,
+    RISK_MANAGE,
+    VISIT_READ,
+    VISIT_WRITE,
+    VISIT_CHECKIN,
+    MEDICATION_ADMINISTER,
+    INCIDENT_REPORT,
+    INCIDENT_MANAGE,
+    FINANCE_MANAGE,
+    AUDIT_READ,
+    AI_ASSIST,
+    ADMIN_ALL
+}
