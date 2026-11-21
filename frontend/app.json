@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "CarePlatform",
+    "slug": "care-platform-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F8FAFC"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Care Platform requires GPS location verification for Electronic Call Monitoring (ECM) visit check-in.",
+        "NSCameraUsageDescription": "Care Platform requires camera access to scan key-safe QR codes for visit verification."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0284C7"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    }
+  }
+}
